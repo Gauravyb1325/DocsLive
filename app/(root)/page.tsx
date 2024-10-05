@@ -2,8 +2,6 @@ import AddDocumentBtn from '@/components/AddDocumentBtn';
 import { DeleteModal } from '@/components/DeleteModal';
 import Header from '@/components/Header'
 import Notifications from '@/components/Notifications';
-
-
 import { getDocuments } from '@/lib/actions/room.actions';
 import { dateConverter } from '@/lib/utils';
 import { SignedIn, UserButton } from '@clerk/nextjs'
